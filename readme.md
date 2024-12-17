@@ -33,7 +33,7 @@ It is designed for scalability, performance, and extensibility.
   - Retrieve booking details and availability status.
 
 - **Database Integration**:  
-  - PostgreSQL used for persistent storage.  
+  - MySQL used for persistent storage.  
 
 - **Validation and Error Handling**:  
   - Ensures input validation and appropriate API error messages.
@@ -54,7 +54,7 @@ The system follows a **layered architecture** for better separation of concerns:
 
 1. **Controller Layer**: Handles incoming HTTP requests and routes them to services.  
 2. **Service Layer**: Contains business logic.  
-3. **Repository Layer**: Interfaces with the PostgreSQL database.  
+3. **Repository Layer**: Interfaces with the MySQL database.  
 4. **Entities**: Represents database tables.  
 5. **DTOs**: Used for data transfer between layers.
 
@@ -77,10 +77,10 @@ Ensure you have the following installed:
    git clone https://github.com/MangOo22/booking.git
    cd booking
 2. **Configure Database**:
-  - Create a PostgreSQL database named booking.
+  - Create a MySQL database named booking.
   - Update the database connection details in application.properties:
     ```bash
-    spring.datasource.url=jdbc:postgresql://localhost:5432/booking
+    spring.datasource.url=jdbc:mysql://localhost:5432/booking
     spring.datasource.username=your-username
     spring.datasource.password=your-password
     spring.jpa.hibernate.ddl-auto=update
