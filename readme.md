@@ -1,6 +1,7 @@
 # Booking Backend System
 
-This repository contains a **Hotel and Flight Booking Backend System** built using **Spring Boot** with **Maven** and **PostgreSQL**. The system provides APIs for managing hotel and flight bookings, offering a solid foundation for a full-fledged reservation platform.
+This repository contains a **Hotel and Flight Booking Backend System** built using **Spring Boot** with **Maven** and **MySQL**.
+The system provides APIs for managing hotel and flight bookings, offering a solid foundation for a full-fledged reservation platform.
 
 ---
 
