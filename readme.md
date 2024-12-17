@@ -95,8 +95,25 @@ Ensure you have the following installed:
 5. **Access the APIs**:
 The server will run on http://localhost:8080.
 ---
+## Project Directory Structure
+  ```bash
+  src/main/java
+    ├── com.booking.hotelflight
+         ├── controller        # REST Controllers
+         ├── service           # Service Layer
+         ├── repository        # Database Repositories
+         ├── model             # Entity Classes
+         ├── dto               # Data Transfer Objects
+         ├── exception         # Custom Exceptions
+         ├── config            # Configuration Files
+  src/test/java
+    ├── BookingServiceTest     # Unit Tests
+    ├── BookingControllerTest  # Integration Tests
+  resources
+    ├── application.properties # Database Configuration
+```
 
-## API Documentation
+## API Documentation**
 
 Below are the key endpoints:
 
